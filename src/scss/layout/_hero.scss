@@ -1,0 +1,26 @@
+.hero{
+    padding: 15px 25px 0 25px;
+    height: 100vh;
+    background-image: url(../images/7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    .header__hero{
+        .header__info{
+            height: 97vh;
+            font-family: 'Dancing Script', cursive;
+            text-shadow: 2px 2px 2px rgba(209, 181, 185, 1);
+            font-weight: 700;
+            font-size: 100px;
+            .header__info--ordered{
+                height: 97vh;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}

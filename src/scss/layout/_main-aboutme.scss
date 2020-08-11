@@ -1,0 +1,44 @@
+.aboutme{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 140px;
+    margin: 0 25px 40px 25px;
+    padding: 25px 15px 25px 15px;
+    background-color: transparentize(white, 0.10);
+    border-radius: 0 15px 0 15px;
+    text-align: center;
+    height: 70vh;
+    box-sizing: border-box;
+    h2{
+        padding-bottom: 15px;
+        font-family: 'Dancing Script', cursive;
+        color: #d1b5b9;
+        font-size: 55px;
+    }
+    .aboutme__container{
+        p{
+            font-family: 'Abel', sans-serif;
+            font-size: 25px;
+        }
+    }
+    .aboutme__tecnology{
+        padding: 30px 20px 30px 20px;
+        height: 40px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .fab{
+            font-size: 65px;
+            margin-right: 25px;
+            text-shadow: 2px 2px 2px rgba(209, 181, 185, 1);
+            &:hover{
+                transform: scale(1.25);
+            }
+        }
+    }
+}

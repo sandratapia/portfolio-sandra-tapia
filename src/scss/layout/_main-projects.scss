@@ -1,0 +1,103 @@
+.projects{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 140px;
+    margin: 0 25px 40px 25px;
+    padding: 25px 15px 25px 15px;
+    background-color: transparentize(white, 0.10);
+    border-radius: 0 15px 0 15px;
+    text-align: center;
+    height: 70vh;
+    box-sizing: border-box;
+}
+.projects__container{
+    h2{
+        padding-bottom: 15px;
+        font-family: 'Dancing Script', cursive;
+        color: #d1b5b9;
+        font-size: 55px;
+    }
+    .projects__list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .arrow__left{
+            text-align: left;
+            margin-right: 15px;
+            font-size: 30px;
+        }
+        .card__project{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 90%;
+            height: auto;
+            .project__img{
+                width: 200px;
+                height: 200px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                .img{
+                    width: 200px;
+                    height: 200px;
+                }
+                .img_retamas{
+                    width: 200px;
+                    height: 100px;
+                }
+                .img_serio{
+                    width: 160px;
+                    height: 200px;
+                }
+                .img_botanical{
+                    width: 200px;
+                    height: 100px;
+                }
+                .img_rym{
+                    width: 200px;
+                    height: 120px;
+                }
+            }
+            .project__info{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: left;
+                padding: 0 25px 0 25px;
+                h3{
+                    padding-bottom: 15px;
+                    font-family: 'Dancing Script', cursive;
+                    font-size: 35px;
+                }
+                .project__links{
+                    padding-bottom: 10px;
+                    font-family: 'Abel', sans-serif;
+                    .fa-github-alt{
+                        color: #d1b5b9;
+                        font-size: 22px;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        font-size: 22px;
+                        outline: none;
+                    }
+                }
+                p{
+                    font-family: 'Abel', sans-serif;
+                    font-size: 22px;
+                }
+            }
+        }
+        .arrow__right{
+            text-align: right;
+            margin-left: 15px;
+            font-size: 30px;
+        }
+    }
+}
